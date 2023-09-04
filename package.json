@@ -1,0 +1,32 @@
+{
+  "name": "psuid",
+  "version": "1.0.0",
+  "description": "A sortable unique id containing a hash of a generated process fingerprint along with random bytes, a timestamp, and a counter.",
+  "type": "module",
+  "author": "Cal Young",
+  "keywords": [
+    "id",
+    "uuid",
+    "unique",
+    "nodejs",
+    "bytes",
+    "string",
+    "javascript",
+    "module",
+    "node",
+    "es6"
+  ],
+  "main": "./index.js",
+  "browser": "./browser.js",
+  "types": "./types/index.d.ts",
+  "standard": {
+    "parser": "@babel/eslint-parser",
+    "ignore": [
+      "/types"
+    ]
+  },
+  "dependencies": {
+    "@neumatter/random-bytes": "^1.0.3",
+    "byteview": "^2.0.0"
+  }
+}
